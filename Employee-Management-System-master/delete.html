@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Add New Record in MySQL Database</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+   
+<body>
+  <iframe src="header.html" style="border:2px solid black;" height="160" width="100% "></iframe>
+	<div class="container">
+    <div class="display-4" style="background-color:LightGray">
+      <p>DELETE EMPLOYEE DATA</p>
+    </div>
+
+	<form method = "post" action = "delete.php">
+    <table class="table table-striped">
+      <tr>
+          <td >Enter Employee ID</td> 
+          <td><input name = "emp_id" type = "text" id = "emp_id"></td>
+          <td><button name = "add" type="submit" class="btn btn-secondary"><i class="fa fa-paper-plane"></i> Submit</button>
+      </tr>
+<!--
+     	<tr>
+          <td >Employee Name</td> 
+          <td><input name = "emp_name" type = "text" id = "emp_name"></td>
+          <td><button name = "add" type="submit" class="btn btn-secondary"><i class="fa fa-paper-plane"></i> Submit</button>
+      </tr>
+
+
+      <tr>
+       	<td >Designation</td>
+       	<td>
+       		<select name="dropdown" id="dropdown">
+       			<option value="">Please select</option>
+       			<option value="Manager">Manager</option>
+       			<option value="Supervisor">Supervisor</option>
+       			<option value="Software Developer">Software Developer</option>
+       		</select>
+          <td><button name = "add" type="submit" class="btn btn-secondary"><i class="fa fa-paper-plane"></i> Submit</button>
+       	</td>
+      </tr>
+
+       	<tr>
+       	<tr>
+       		<td >City </td>
+        	<td><input type="text" name="city" id="city"> </td>
+          <td><button name = "add" type="submit" class="btn btn-secondary"><i class="fa fa-paper-plane"></i> Submit</button>
+        </tr>
+-->
+    </table>
+	</form>
+</div>
+</body>
+</html>
+<!--id,name,age,sex,designation,DOJ,salry,mobileNo,address,city -->

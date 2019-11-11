@@ -1,0 +1,46 @@
+.a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+.a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+.a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.bd
+{
+    background-color: gray;
+}
+
+.pad1 {
+    border: 1px solid black;
+    background-color: gray;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.pad2 {
+    border: 1px solid black;
+    padding: 25px 50px 75px 100px;
+    background-color: lightblue;
+}
+
+.pad3{
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}

@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>Add New Record in MySQL Database</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+   
+<body>
+  <iframe src="header.html" style="border:2px solid black;" height="160" width="100% "></iframe>
+  <div class="container">
+    <div class="display-4" style="background-color:LightGray">
+      <p>EDIT EMPLOYEE DATA</p>
+    </div>
+
+  <form method = "post" action = "editp.php">
+    <table class="table table-striped">
+      <tr>
+          <td >Employee ID</td> 
+          <td><input name = "emp_id" type = "text" id = "emp_id"></td>
+          <td><button name = "add" type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button>
+      </tr>
+    </table>
+  </form>
+</div>
+
+<div align="center">
+<a href="show.php">
+  <button class="btn btn-secondary" style="font-size:32px;">
+    <i class="fa fa-home"> HOME </i> 
+  </button>
+</a>
+</div>
+
+</body>
+</html>
+<!--id,name,age,sex,designation,DOJ,salry,mobileNo,address,city -->
